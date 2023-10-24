@@ -1,0 +1,48 @@
+html, body{
+font-family:Verdana, sans-serif ;
+box-sizing: border-box;
+}
+
+h3{
+    margin-left:30px;
+}
+
+.container {
+background-color:#f2f2f2;;
+text-align: left;
+padding: 30px;;
+border-radius: 5px;
+margin: 30px;
+
+}
+
+
+input[type=submit] {
+    color:white;
+    background-color:#04AA6D;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+
+    background-color:#45a049;;
+
+}
+
+input[type=text] , [type=textarea] , select {
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    resize: vertical ;
+    padding: 12px 20px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    font-family:Verdana, sans-serif ;
+    box-sizing: border-box;
+
+
+}
+
